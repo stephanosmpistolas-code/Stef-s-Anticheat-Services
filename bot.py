@@ -53,6 +53,7 @@ async def load_cogs():
     await bot.load_extension("cogs.welcome")
     await bot.load_extension("cogs.status_panel")
     await bot.load_extension("cogs.support_voice")
+    await bot.load_extension("cogs.tickets")
 
 
 async def main():
