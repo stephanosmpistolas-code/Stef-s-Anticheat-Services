@@ -48,25 +48,4 @@ STATUS_COLOR_ONLINE = 0x2ECC71       # πράσινο
 STATUS_COLOR_MAINTENANCE = 0xF1C40F  # κίτρινο
 STATUS_COLOR_OFFLINE = 0xE74C3C      # κόκκινο
 
-STATUS_LABEL_ONLINE = "<a:38899greenloading:1517670111316676639> Online"
-STATUS_LABEL_MAINTENANCE = "<a:51704orangeloading:1517670157433045163> Maintenance"
-STATUS_LABEL_OFFLINE = "<a:31830redloading:1517670202693914756> Offline"
-
-# ---------- Permissions ----------
-# Ρόλοι που θεωρούνται "staff" και εξαιρούνται από anti-spam/anti-raid φίλτρα
-STAFF_ROLE_NAMES = ["Admin", "Moderator", "Staff"]
-
-# ---------- Tickets ----------
-TICKET_CATEGORY_NAME = "Tickets"                # κατηγορία όπου δημιουργούνται τα κανάλια tickets
-TICKET_LOG_CHANNEL_NAME = "ticket-logs"         # κανάλι όπου στέλνονται τα transcripts κλειστών tickets
-TICKET_DATA_FILE = "tickets_data.json"          # αρχείο αποθήκευσης ενεργών tickets
-TICKET_TRANSCRIPT_ON_CLOSE = True               # αν θα δημιουργείται transcript στο κλείσιμο
-
-TICKET_PANEL_TITLE = "Υποστήριξη"
-TICKET_PANEL_DESCRIPTION = (
-    "Πάτησε το κουμπί παρακάτω για να ανοίξεις ένα ιδιωτικό ticket με το staff."
-)
-TICKET_WELCOME_DESCRIPTION = (
-    "Καλώς ήρθες {mention}.\n"
-    "Ένα μέλος του staff θα σε εξυπηρετήσει σύντομα. Περίγραψε το πρόβλημά σου εδώ."
-)
+STATUS_LABEL_ONLINE = "<a:38899greenloading:151767011131667663
